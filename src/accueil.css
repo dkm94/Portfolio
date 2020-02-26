@@ -1,0 +1,29 @@
+.nom {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.nom h1 {
+    margin: 0;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.titre-pro {
+    position: absolute;
+    top: 58%;
+    left: 25%;
+    font-family: 'Josefin Sans', sans-serif, light;
+    color: #FFFFFF;
+}
+
+.titre-pro h2 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 4em;
+    text-transform: uppercase;
+}

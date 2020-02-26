@@ -1,0 +1,42 @@
+/* Accueil */
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: url("../src/img/sunset-1373171_1920.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+}
+
+.liens-navigation {
+    margin: 0;
+    padding-left: 55%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+ul.liens-navigation li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+ul.liens-navigation li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+nav {
+    /* background-color: white; */
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
