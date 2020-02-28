@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
 // import Contact from "./Contact";
 import "../accueil.css";
 
@@ -8,8 +7,8 @@ class Accueil extends Component {
     render(){
 
         return(
+            <div className="intro">
             <section className="header">
-                <Navbar />
                 {/* <Contact /> */}
                 <div className="nom">
                     <h1>Diane Mpacko</h1>
@@ -21,6 +20,7 @@ class Accueil extends Component {
 
                 </div>
             </section>
+            </div>
         );
     }
 }

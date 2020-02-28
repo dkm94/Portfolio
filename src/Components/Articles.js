@@ -19,7 +19,7 @@ class Articles extends Component {
                         <p>{articleLegende}</p>
                     </div>
                     <div className="legende-techno">
-                        <p>{articleTechnos}</p>
+                        <p className="technos">{articleTechnos}</p>
                     </div>
                     <div className="boutons-projet">
                         <button className="submit-btn">WEBSITE</button>

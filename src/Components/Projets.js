@@ -1,5 +1,4 @@
 import React, { Component} from "react";
-import Navbar from "../Components/Navbar";
 import Articles from "../Components/Articles";
 import articlesProjets from "../articles";
 import "../projets.css";
@@ -24,7 +23,6 @@ class Projets extends Component {
 
         return(
             <section className="projets">
-                <Navbar />
                 <div className="articles">
                     {
                         this.state.articlesProjets

@@ -1,11 +1,6 @@
-.projets {
-    height: 100vh;
-    /* background-color: blue; */
-}
-
 .articles {
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     /* background-color: palegoldenrod; */
     display: flex;
     flex-direction: column;

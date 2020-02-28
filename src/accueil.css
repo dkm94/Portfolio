@@ -1,9 +1,14 @@
+.intro {
+    height: 85vh;
+}
+
 .nom {
     position: absolute;
     top: 38%;
-    left: 41%;
+    left: 52%;
     font-family: 'Josefin Sans', sans-serif;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 
@@ -15,15 +20,17 @@
 
 .titre-pro {
     position: absolute;
-    top: 58%;
-    left: 25%;
+    top: 48%;
+    left: 76%;
     font-family: 'Josefin Sans', sans-serif, light;
     color: #FFFFFF;
+    z-index: 1;
+    text-align: end;
 }
 
 .titre-pro h2 {
     margin: 0;
     font-weight: lighter;
-    font-size: 4em;
+    font-size: 2em;
     text-transform: uppercase;
 }
