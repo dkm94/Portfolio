@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import "../aboutMe.css";
-import photoId from "../img/woman.png";
+import photoId from "../img/ID_Diane.jpg";
 
 class AboutMe extends Component {
 
@@ -30,36 +30,32 @@ class AboutMe extends Component {
                             <div className="skills-col">
                                 <h4>Langages</h4>
                                 <ul>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Javascript</li>
+                                    <li>JQuery</li>
                                 </ul>
                             </div>
                             <div className="skills-col">
-                                <h4>Frameworks</h4>
+                                <h4>FULL STACK</h4>
                                 <ul>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
+                                    <li>NodeJS</li>
+                                    <li>Mongodb</li>
+                                    <li>ReactJS</li>
+                                    <li>NoSQL</li>
                                 </ul>
                             </div>
                             <div className="skills-col">
                                 <h4>Outils</h4>
                                 <ul>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
-                                    <li>XXXXXX</li>
+                                    <li>Postman</li>
+                                    <li>Robo3T</li>
+                                    <li>Github/GIT</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="bouton-ab-me">
-                            <button className="submit-btn btn-portfolio"><Link to="/Projets">PORTFOLIO</Link></button>
+                            <button className="submit-btn btn-portfolio"><Link to="/files/CV_MPACKO_Diane_Dev_Web.pdf" target="_blank" download style={{color: '#000000'}}>TELECHARGER MON CV</Link></button>
                         </div>
                     </div>
 

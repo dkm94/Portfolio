@@ -4,6 +4,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    overflow: scroll;
+}
+
 .header {
     background-image: url("../src/img/startup-593327_1920.jpg");
     width: 100%;
@@ -40,6 +44,10 @@ ul.liens-navigation li {
     font-weight: 800;
     align-items: center;
     justify-content: center;
+}
+
+ul.liens-navigation li:hover {
+    background-color: grey;
 }
 
 ul.liens-navigation li a {

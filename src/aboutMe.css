@@ -1,5 +1,7 @@
 .aboutme {
     height: 85vh;
+    background-image: url(../src/img/desktop-background.png);
+    background-size: cover;
     /* background-color: blue; */
 }
 
@@ -44,6 +46,7 @@
 .photo-id img {
     height: 100%;
     width: auto;
+    border-radius: 130px;
 }
 
 .titre-presentation {

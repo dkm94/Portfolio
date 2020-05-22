@@ -2,6 +2,7 @@ import React, { Component} from "react";
 import Articles from "../Components/Articles";
 import articlesProjets from "../articles";
 import "../projets.css";
+// import Navbar from "../Components/Navbar"
 
 class Projets extends Component {
 
@@ -40,9 +41,6 @@ class Projets extends Component {
 
                             ))
                     }
-
-                  
-
                 </div>
             </section>
         );
