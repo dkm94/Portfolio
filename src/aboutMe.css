@@ -70,12 +70,34 @@
     text-transform: uppercase;
 }
 
+blockquote {
+    quotes: "\00AB""\00BB";
+}
+
+blockquote p::before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 20px;
+    color:#890000;
+}
+
+blockquote p::after {
+    content: close-quote;
+    font-weight: bold;
+    font-size: 20px;
+    color:#890000;
+}
+
 .presentation-id {
     display: flex;
     align-items: center;
     padding: 20px;
     height: 60%;
     /* background: orange; */
+}
+
+.presentation-id {
+    font-style: italic;
 }
 
 .skills {

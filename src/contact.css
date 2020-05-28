@@ -66,16 +66,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-.get-in-touch .title {
-    color: #000000;
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1.5em;
-  line-height: 48px;
-  padding-bottom: 48px;
-}
+
 .contact-form .form-field {
   position: relative;
   margin: 32px 0;

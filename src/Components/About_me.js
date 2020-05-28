@@ -22,7 +22,12 @@ class AboutMe extends Component {
                             </div>
                             <div className="titre-presentation">
                                 <div className="presentation-id">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    <blockquote>
+                                        <p> Qui a dit que la curiosité était un vilain défaut ? Ne serait-ce pas ce qui vous emmène à moi...et très certainement ce qui m'a poussée dans cette voie !<br />
+                                    Après des études de commerce international et de traduction, j'ai développé une appétence pour les métiers du numérique qui me permettent à présent de faire partie de la grande famille des développeurs web.
+                                    Ma maîtrise de l'anglais a été un atout durant ma formation de Développeur web fullstack JS, et reste une ressource indispensable dans l'apprentissage continu de nouveaux outils/langages et veilles technologiques.<br />
+                                    Je suis ouverte aux projets MERN Stack en frontend, backend et fullstack. En tant que junior, je suis prête à mettre en application toutes mes connaissances acquises depuis le début de mon parcours dans le développement et à donner mon maximum afin d'apporter une vraie plus value à votre équipe ! 
+                                    </p></blockquote>
                                 </div>
                             </div>
                         </div>
@@ -34,15 +39,16 @@ class AboutMe extends Component {
                                     <li>CSS3</li>
                                     <li>Javascript</li>
                                     <li>JQuery</li>
+                                    <li>NoSQL</li>
                                 </ul>
                             </div>
                             <div className="skills-col">
-                                <h4>FULL STACK</h4>
+                                <h4>MERN STACK</h4>
                                 <ul>
-                                    <li>NodeJS</li>
                                     <li>Mongodb</li>
-                                    <li>ReactJS</li>
-                                    <li>NoSQL</li>
+                                    <li>Express.js</li>
+                                    <li>REACT JS</li>
+                                    <li>Node.js</li>
                                 </ul>
                             </div>
                             <div className="skills-col">
