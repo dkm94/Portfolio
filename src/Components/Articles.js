@@ -15,7 +15,7 @@ class Articles extends Component {
                 </div>
                 <div className="article-legende">
                     <h3>{articleTitre}</h3>
-                    <div className="description projet">
+                    <div className="description-projet">
                         <p>{articleLegende}</p>
                     </div>
                     <div className="legende-techno">

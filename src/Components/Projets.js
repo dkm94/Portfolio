@@ -25,6 +25,8 @@ class Projets extends Component {
         return(
             <section className="projets">
                 <div className="articles">
+                    <div className="titre-section"><h3>MES PROJETS</h3></div>
+                    
                     {
                         this.state.articlesProjets
 

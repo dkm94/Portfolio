@@ -26,8 +26,8 @@ toggleMenu = () => {
                     <ul className="liens-navigation">
                         <li><Link to="/">Accueil</Link></li>
                         <li><a href="http://github.com/dkm94">Github</a></li>
-                        <li><Link to="/AboutMe">About me</Link></li>
-                        <li><Link to="/Projets">Projets</Link></li>
+                        <li><Link to="/AboutMe">À propos de moi</Link></li>
+                        <li><Link to="/Projets">Mes projets</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
                     </ul>
 
@@ -40,8 +40,8 @@ toggleMenu = () => {
                     <ul className="liens-navigation-burger" style={{display: this.state.visible ? "flex" : "none"}}>
                         <li onClick={this.toggleMenu}><Link to="/">Accueil</Link></li>
                         <li onClick={this.toggleMenu}><a href="http://github.com/dkm94">Github</a></li>
-                        <li onClick={this.toggleMenu}><Link to="/AboutMe">About me</Link></li>
-                        <li onClick={this.toggleMenu}><Link to="/Projets">Projets</Link></li>
+                        <li onClick={this.toggleMenu}><Link to="/AboutMe">À propos de moi</Link></li>
+                        <li onClick={this.toggleMenu}><Link to="/Projets">Mes projets</Link></li>
                         <li onClick={this.toggleMenu}><Link to="/Contact">Contact</Link></li>
                     </ul>
                 </nav>

@@ -13,8 +13,8 @@ class AboutMe extends Component {
             <section className="aboutme">
                 <div className="ab-me">
                     <div className="cadre-ab-me">
-                        <div className="titre-ab-me">
-                            <h3>About me</h3>
+                        <div className="titre-section">
+                            <h3>À PROPOS</h3>
                         </div>
                         <div className="presentation">
                             <div className="photo-id">

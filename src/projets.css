@@ -1,14 +1,48 @@
 .projets {
+    background-image: url(../src/img/desktop-background.png);
+    background-size: cover;
     overflow: auto;
+    height: 85vh;
+    width: 100%;
 }
 
 .articles {
     width: 100%;
     height: 85vh;
     /* background-color: palegoldenrod; */
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url(../src/img/desktop-background.png);
-    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+.projets {
+    font-size: 23px;
+    height: fit-content;
+}
+
+.articles article {
+    flex-direction: column;
+    height: fit-content;
+}
+
+.articles {
+    height: fit-content;
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+}
+
+.article-legende {
+    width: 100%;
+    height: fit-content;
+}
+
+.description-projet {
+    height: fit-content;
+}
 }

@@ -1,11 +1,27 @@
 .intro {
+    background-image: url("../src/img/startup-593327_1920.jpg");
+    background-size: cover ;
     height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    position: absolute;
+    font-size: 1.6em;
 }
 
 .nom {
-    position: absolute;
+    /* position: absolute;
     top: 38%;
-    left: 52%;
+    left: 52%; */
     font-family: 'Josefin Sans', sans-serif;
     color: #FFFFFF;
     z-index: 1;
@@ -19,13 +35,13 @@
 }
 
 .titre-pro {
-    position: absolute;
+    /* position: absolute;
     top: 48%;
-    left: 76%;
+    left: 76%; */
     font-family: 'Josefin Sans', sans-serif, light;
     color: #FFFFFF;
     z-index: 1;
-    text-align: end;
+    text-align: center;
 }
 
 .titre-pro h2 {
@@ -33,4 +49,8 @@
     font-weight: lighter;
     font-size: 2em;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
 }

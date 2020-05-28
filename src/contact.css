@@ -137,3 +137,22 @@ body {
 .note .link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+.contact {
+  margin: 0;
+  height: 93vh;
+  flex-direction: column;
+}
+
+.contact-img {
+  width: 100%;
+  height: 30%;
+  background-image: url("../src/img/computer-768696_1280.jpg");
+}
+
+.contact-formulaire {
+  width: 100%;
+}
+}

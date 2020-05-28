@@ -14,7 +14,7 @@ class Accueil extends Component {
                     <h1>Diane Mpacko</h1>
                 </div>
                 <div className="titre-pro">
-                    <h2>Frontend <br/> developer</h2>
+                    <h2>Fullstack Developer <br/>Junior</h2>
                 </div>
                 <div className="bouton-about-me">
 
