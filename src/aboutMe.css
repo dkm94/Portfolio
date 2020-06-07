@@ -44,9 +44,10 @@
 }
 
 .photo-id img {
-    height: 100%;
-    width: auto;
-    border-radius: 130px;
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+    /* border-radius: 130px; */
 }
 
 .titre-presentation {
@@ -129,7 +130,14 @@ blockquote p::after {
     box-shadow: 10px 10px 5px -4px rgba(201,195,201,1);
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px){      
+.main-page {
+    height: fit-content;
+}    
+  
+.aboutme {
+    height: fit-content;
+}    
 
 .ab-me {
     height: fit-content;
@@ -138,6 +146,7 @@ blockquote p::after {
 
 .cadre-ab-me {
     height: fit-content;
+    width: 100%;
 }
 
 .presentation {
@@ -161,9 +170,52 @@ blockquote p::after {
 
 .skills {
     height: fit-content;
+    padding-left: 10px;
 }
 
 .skills-col {
     margin-left: 0;
+}
+
+.bouton-ab-me {
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 787px){
+.skills {
+    flex-direction: column;
+}
+
+.skills-col {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills-col h4 {
+    width: 50%;
+    text-align: center;
+}
+
+.skills-col ul {
+    width: 50%;
+}
+
+@media screen and (max-width: 700px){
+.skills-col {
+    flex-direction: column;
+}
+
+.skills-col ul {
+    align-items: center;
+    justify-content: center;
+    display: contents;
+}
+
+.skills-col h4 {
+    text-align: center;
+}
 }
 }

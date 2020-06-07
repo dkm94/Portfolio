@@ -2,6 +2,7 @@
 html, body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem
 }
 
 h3 {
@@ -10,6 +11,10 @@ h3 {
     font-size: 2em;
     margin: 0;
     text-transform: uppercase;
+}
+
+.main-page {
+    height: 100vh;
 }
 
 .barMenu {
@@ -54,6 +59,11 @@ ul.liens-navigation li:hover {
 }
 
 ul.liens-navigation li a {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: #FFF;
     text-decoration: none;
   }
@@ -79,7 +89,7 @@ nav {
 }
 
 /* Media queries */
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
     
 .main-page {
     display: flex;
@@ -104,8 +114,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 7%;
-    height: 65px;
+    width: 4rem;
+    height: 4rem;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 35px;
@@ -159,7 +169,7 @@ h3 {
 }
   }
 
-  @media screen and (max-width: 768px) and (min-width: 414px) {
+  @media screen and (max-width: 768px) {
 
 .nom h1 {
     text-align: center;
