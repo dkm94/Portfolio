@@ -138,7 +138,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
 
 .contact {
   margin: 0;
@@ -154,5 +154,12 @@ body {
 
 .contact-formulaire {
   width: 100%;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+.contact-form {
+  display: grid;
 }
 }
