@@ -16,7 +16,7 @@
     justify-content: space-around;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
 
 .projets {
     font-size: 23px;
@@ -26,6 +26,7 @@
 .articles article {
     flex-direction: column;
     height: fit-content;
+    padding: 20px 50px;
 }
 
 .articles {
@@ -44,5 +45,11 @@
 
 .description-projet {
     height: fit-content;
+}
+}
+
+@media screen and (max-width: 600px) {
+.articles article {
+    padding: 20px 20px;
 }
 }

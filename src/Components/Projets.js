@@ -38,7 +38,9 @@ class Projets extends Component {
                                     articleImg={article.img}
                                     articleTitre={article.titre}
                                     articleLegende={article.legende}
-                                    articleTechnos={article.technos}
+                                    articleWebsite={article.website}
+                                    articleGithub={article.github}
+                                    // articleTechnos={article.technos}
                                 />
 
                             ))

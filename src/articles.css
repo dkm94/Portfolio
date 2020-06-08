@@ -16,15 +16,18 @@ ul.liens-navigation li a {
 }
 
 .article-img {
-    background-color: grey;
+    /* background-color: grey; */
     height: 100%;
     width: 48%;
+    align-items: center;
+    display: flex;
 }
 
 .projet-img {
-    height: 100%;
     width: 100%;
-    object-fit: cover;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: thin;
 }
 
 .article-legende {

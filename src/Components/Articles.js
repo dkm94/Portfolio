@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+// import { Link } from 'react-router-dom';
 import "../articles.css";
 import "../contact.css";
 
 class Articles extends Component {
 
+
     render() {
 
-        const {articleId, articleImg, articleTitre, articleLegende, articleTechnos} = this.props
+        const {articleId, articleImg, articleTitre, articleLegende, articleWebsite, articleGithub, articleTechnos} = this.props
 
         return(
             <article id={articleId}>
@@ -22,8 +24,8 @@ class Articles extends Component {
                         <p className="technos">{articleTechnos}</p>
                     </div>
                     <div className="boutons-projet">
-                        <button className="submit-btn">WEBSITE</button>
-                        <button className="submit-btn">GIT</button>
+                        <button className="submit-btn"><a href={articleWebsite} target="_blank" rel="noopener noreferrer">DEMO</a></button>
+                        <button className="submit-btn"><a href={articleGithub} target="_blank" rel="noopener noreferrer">GITHUB</a></button>
                     </div>
                 </div>
             </article>

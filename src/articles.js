@@ -1,17 +1,21 @@
 const articlesProjets = [
     {
         id: 1,
-        img: "full-moon-415501_1920.jpg",
+        img: "kimia-thumbnail.png",
         titre: "Kimia",
-        legende: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        technos: "REACT JS • NODE JS"
+        legende: "Ce projet a été réalisé au cours du stage de formation Développeur web fullstack, il s'agit du site de présentation de l'activité de l'entreprise KIMIA Café.",
+        website: "https://www.heroku.com",
+        github: "https://github.com/dkm94/Kimia_Cafe"
+        // technos: "REACT JS • NODE JS"
     },
     {
         id: 2,
-        img: "nature-3044755_1920.jpg",
-        titre: "Puissance 4",
-        legende: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        technos: "REACT JS • NODE JS"
+        img: "my-wedding-thumbnail.png",
+        titre: "My Wedding App",
+        legende: "My Wedding App est le projet de fin de formation que je présenterai lors de la certification. Il s'agit d'un projet de site web pour organisation de mariage. Vous pouvez dès à présent regarder l'avancement du projet.",
+        website: "https://www.heroku.com",
+        github: "https://github.com/dkm94/front_mariage_app/tree/Developpement"
+        // technos: "REACT JS • NODE JS"
     }
 ]
 
