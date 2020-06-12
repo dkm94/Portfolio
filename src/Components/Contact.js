@@ -29,7 +29,8 @@ class Contact extends Component {
           'user_YnLFwXfLV4QY86l4g4Ryp'
          )
          this.resetForm()
-     }
+         this.showAlert()
+    }
     resetForm() {
         this.setState({
           name: '',
@@ -38,9 +39,15 @@ class Contact extends Component {
           message: '',
         })
       }
+
+    showAlert = () => {
+        alert("Votre message a été envoyé.")
+    }
+
     handleChange = (param, e) => {
         this.setState({ [param]: e.target.value })
       }
+      
     
     render(){
         return(
@@ -52,21 +59,21 @@ class Contact extends Component {
                         <form className="contact-form row" onSubmit={this.handleSubmit.bind(this)}>
                             <div className="form-field col x-50">
                                 <input id="name" name="name" placeholder="NAME" className="input-text js-input" type="text"  value={this.state.name} onChange={this.handleChange.bind(this, 'name')} required />
-                                {/* <label className="label" htmlFor="name">Name</label> */}
+                              
                             </div>
                             <div className="form-field col x-50">
                                 <input id="email" name="email" value={this.state.email} placeholder ="EMAIL" className="input-text js-input" type="email" onChange={this.handleChange.bind(this, 'email')} required />
-                                {/* <label className="label" htmlFor="email">E-mail</label> */}
+                                
                             </div>
                             <div className="form-field col x-50">
                                 <input id="subject" type="text" name="subject" className="input-text js-input" placeholder="SUBJECT" value={this.state.subject} onChange={this.handleChange.bind(this, 'subject')}/>
                             </div>
                             <div className="form-field col x-100">
                                 <input id="message" type="textarea" placeholder="MESSAGE" className="input-text js-input" value={this.state.message} onChange={this.handleChange.bind(this, 'message')} required />
-                                {/* <label className="label" htmlFor="message">Message</label> */}
+                               
                             </div>
                             <div className="form-field col x-100 align-center">
-                                <input className="submit-btn" type="submit" defaultValue="Submit" />
+                                <input className="submit-btn" type="submit" defaultValue="Submit"/>
                             </div>
                         </form>
             </section>
