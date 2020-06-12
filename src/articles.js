@@ -3,8 +3,8 @@ const articlesProjets = [
         id: 1,
         img: "kimia-thumbnail.png",
         titre: "Kimia",
-        legende: "Ce projet a été réalisé au cours du stage de formation Développeur web fullstack, il s'agit du site de présentation de l'activité de l'entreprise KIMIA Café.",
-        website: "https://www.heroku.com",
+        legende: "Ce projet a été réalisé au cours du stage de formation Développeur web fullstack, il s'agit du site de présentation de l'activité de l'entreprise KIMIA Café. Le projet ayant été validé par la fondatrice de l'enseigne est en attente de déploiement.",
+        website: "https://kimia-cafe-by-dkm.herokuapp.com/",
         github: "https://github.com/dkm94/Kimia_Cafe"
         // technos: "REACT JS • NODE JS"
     },
