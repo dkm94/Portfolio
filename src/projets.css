@@ -8,7 +8,7 @@
 
 .articles {
     width: 100%;
-    height: 85vh;
+    height: fit-content;
     /* background-color: palegoldenrod; */
     /* padding: 20px; */
     display: flex;
