@@ -9,17 +9,24 @@ const articlesProjets = [
         // technos: "REACT JS • NODE JS"
     },
     {
-        id: 2,
+        id: 4,
+        img: "mjd-thumbnail.png",
+        titre: "MyJuniorDeveloper (frontend)",
+        legende: "MJD est une CVthèque dédiée aux développeurs Juniors. Il s'agit de mettre en avant ses compétences ainsi que ses projets sans tenir compte de l'expérience professionnelle qui leur fait souvent défaut. Le développeur y créé son profil et le recruteur peut ensuite trouver celui qui lui correspond le mieux par rapport à l'outil de recherche. L'avantage pour le recruteur est de faire lui-même sa sélection s'il ne souhaite pas ouvrir l'offre à un large public (par souci de traitement d'une demande trop importante par exemple). - Le backend est actuellement en construction",
+        website: "https://dkm94.github.io/",
+        github: "https://github.com/dkm94/MyJuniorDeveloper/tree/Dev"
+    },
+    {
+        id: 3,
         img: "my-wedding-thumbnail.png",
-        titre: "My Wedding App (serveur)",
-        // legende: "My Wedding App est le projet de fin de formation que je présenterai lors de la certification. Il s'agit d'un site web pour organisation de mariage. Vous pouvez dès à présent regarder l'avancement du projet.",
-        legende: "C'est le serveur complet de la future application MyWeddingApp. Il s'agit d'une app d'organisation de mariage: les mariés peuvent créer leur compte, et planifier les détails clés de la cérémonie tels que l'ajout d'invités, d'un menu, le placement sur les tables...Les invités peuvent de leur côté compléter leur profil et chosir leurs préférences pour le choix du menu (ce qui permet aux mariés d'avoir une idée précise des quantités à commander), ajouter une photo de profil (pour permettre l'identifiation visuelle pour les autres invités sur les tables). L'application REACT est en contruction.",
+        titre: "My Wedding App (application backend)",
+        legende: "C'est le backend complet de la future application MyWeddingApp. Il s'agit d'une application d'organisation de mariage: les mariés peuvent créer leur compte, et planifier les détails clés de la cérémonie tels que l'ajout d'invités, d'un menu, le placement sur les tables...Les invités peuvent de leur côté compléter leur profil et chosir leurs préférences pour le choix du menu (ce qui permet aux mariés d'avoir une idée précise des quantités à commander), ajouter une photo de profil (pour permettre l'identifiation visuelle pour les autres invités sur les tables). L'application REACT est en contruction.",
         // website: "https://www.heroku.com",
         github: "https://github.com/dkm94/keroku_mariage/tree/dev"
         // technos: "REACT JS • NODE JS"
     },
     {
-        id: 3,
+        id: 4,
         img: "screenshot-nutrifruits.png",
         titre: "Nutrifruits",
         legende: "Application qui regroupe des informations nutritionnelles sur les fruits du quotidien.",
