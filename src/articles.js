@@ -13,7 +13,7 @@ const articlesProjets = [
         img: "mjd-thumbnail.png",
         titre: "MyJuniorDeveloper (frontend)",
         legende: "MJD est une CVthèque dédiée aux développeurs Juniors. Il s'agit de mettre en avant ses compétences ainsi que ses projets sans tenir compte de l'expérience professionnelle qui leur fait souvent défaut. Le développeur y créé son profil et le recruteur peut ensuite trouver celui qui lui correspond le mieux par rapport à l'outil de recherche. L'avantage pour le recruteur est de faire lui-même sa sélection s'il ne souhaite pas ouvrir l'offre à un large public (par souci de traitement d'une demande trop importante par exemple). - Le backend est actuellement en construction",
-        website: "https://dkm94.github.io/",
+        website: "https://myjuniordeveloper.netlify.app/",
         github: "https://github.com/dkm94/MyJuniorDeveloper/tree/Dev"
     },
     {
