@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, withRouter } from 'react-router-dom'; 
+import { NavLink, withRouter } from 'react-router-dom'; 
 
 class Navbar extends Component {
 
@@ -23,13 +23,13 @@ toggleMenu = () => {
 
         return(
                 <nav>
-                    <ul className="liens-navigation">
-                        <li><Link to="/">Accueil</Link></li>
-                        <li><a href="http://github.com/dkm94">Github</a></li>
-                        <li><Link to="/AboutMe">À propos de moi</Link></li>
-                        <li><Link to="/Projets">Mes projets</Link></li>
-                        <li><Link to="/Contact">Contact</Link></li>
-                    </ul>
+                    <div className="liens-navigation">
+                        <NavLink to="/" exact className="linkStyle" activeClassName="current">Accueil</NavLink>
+                        <li className="linkStyle"><a href="http://github.com/dkm94"  activeClassName="current">Github</a></li>
+                        <NavLink to="/AboutMe" className="linkStyle" activeClassName="current">À propos de moi</NavLink>
+                        <NavLink to="/Projets" className="linkStyle" activeClassName="current">Mes projets</NavLink>
+                        <NavLink to="/Contact" className="linkStyle" activeClassName="current">Contact</NavLink>
+                    </div>
 
                     
                     <div className="barMenu" onClick={this.toggleMenu}>
@@ -38,11 +38,11 @@ toggleMenu = () => {
                         <div className="bar"></div>
                     </div>
                     <ul className="liens-navigation-burger" style={{display: this.state.visible ? "flex" : "none"}}>
-                        <li onClick={this.toggleMenu}><Link to="/">Accueil</Link></li>
+                        <li onClick={this.toggleMenu}><NavLink to="/">Accueil</NavLink></li>
                         <li onClick={this.toggleMenu}><a href="http://github.com/dkm94">Github</a></li>
-                        <li onClick={this.toggleMenu}><Link to="/AboutMe">À propos de moi</Link></li>
-                        <li onClick={this.toggleMenu}><Link to="/Projets">Mes projets</Link></li>
-                        <li onClick={this.toggleMenu}><Link to="/Contact">Contact</Link></li>
+                        <li onClick={this.toggleMenu}><NavLink to="/AboutMe">À propos de moi</NavLink></li>
+                        <li onClick={this.toggleMenu}><NavLink to="/Projets">Mes projets</NavLink></li>
+                        <li onClick={this.toggleMenu}><NavLink to="/Contact">Contact</NavLink></li>
                     </ul>
                 </nav>
 

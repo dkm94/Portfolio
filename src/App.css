@@ -21,6 +21,10 @@ h3 {
     display: none
 }
 
+a.current {
+    color: lightcoral;
+}
+
 .liens-navigation-burger {
     display: none
 }
@@ -37,13 +41,10 @@ h3 {
     align-items: center;
 }
 
-ul.liens-navigation li {
+.linkStyle {
     margin: 0;
     display: flex;
-    height: 100%;
-    width: 20vw;
     text-align: center;
-    color: #555;
     transition: background-color 0.5s 0.2s ease, color 0.3s ease;
     cursor: pointer;
     font-size: 12px;
@@ -52,13 +53,17 @@ ul.liens-navigation li {
     font-weight: 800;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    text-decoration: none;
 }
 
-ul.liens-navigation li:hover {
+.linkStyle:hover {
     background-color: grey;
 }
 
-ul.liens-navigation li a {
+.linkStyle a {
     height: 100%;
     width: 100%;
     justify-content: center;
